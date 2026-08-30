@@ -1,7 +1,8 @@
+
 import React, { useRef, useState } from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import type { Variants } from 'framer-motion';
-import aboutImg from '../assets/about.png';
+import aboutImg from '../assets/mee.png';
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -263,9 +264,8 @@ export const AboutSection: React.FC = () => {
                 {/* Main Portrait */}
                 <img
                   src={aboutImg}
-                  alt="Damisetti Shamya Lohitha"
-                  className="w-full h-full object-cover object-top filter brightness-[0.94] contrast-[1.06] saturate-[1.02] group-hover:brightness-105 group-hover:contrast-[1.12] transition-all duration-700 ease-out"
-                />
+                  alt="ALIZA PARVEEN"
+                  className="w-full h-full object-cover object-top brightness-100 contrast-100 saturate-100 transition-all duration-700 ease-out"                />
 
                 {/* Mouse-Tracked Holographic Glass Spotlight Sweep */}
                 <motion.div
