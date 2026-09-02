@@ -169,11 +169,10 @@ export const HeroSection: React.FC = () => {
                 className="text-[10px] sm:text-[11px] md:text-xs font-normal tracking-[0.28em] uppercase text-[#C4B29E]"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
-                SOftware DEVELOPER
+                SOftware Egineer
                 <span className="text-[#8C6D4F] mx-1">•</span>
-                Flutter
-                <span className="text-[#8C6D4F] mx-1">•</span>
-                Android
+                Android Developer
+              
               </p>
             </motion.div>
 
