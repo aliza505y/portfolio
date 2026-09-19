@@ -135,7 +135,7 @@ export const AboutSection: React.FC = () => {
               className="text-xs sm:text-sm md:text-[14.5px] font-light text-[#B3A497] leading-[1.85] tracking-wide mb-10 max-w-xl"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
-              I'm <span className="text-[#F3DBB3] font-medium">Aliza Parveen</span>, Software Engineering student specializing in Android and Flutter development, with experience in Kotlin, Dart, Firebase, and modern application development. With a strong foundation in algorithms and software engineering, I focus on building scalable, user-friendly, and refined digital experiences. I’m passionate about AI and continuously exploring new technologies to turn complex ideas into impactful products..
+              I'm <span className="text-[#F3DBB3] font-medium">Aliza Parveen</span>, Software Engineering student specializing in Android  development, with experience in XML, Jetpack Compose, Kotlin, Room, Firebase, and modern application development. With a strong foundation in algorithms and software engineering, I focus on building scalable, user-friendly, and refined digital experiences. I’m passionate about AI and continuously exploring new technologies to turn complex ideas into impactful products..
             </motion.p>
 
             {/* Concise 4-Item Achievement Metrics Grid */}
