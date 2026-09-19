@@ -16,7 +16,7 @@ const journey: RouteStop[] = [
     year: '2026 - PRESENT',
     title: 'MOBILE APP DEVELOPER',
     organization: 'FREELANCE / INDEPENDENT DEVELOPMENT',
-    description: 'Developing Android and cross-platform mobile applications using Kotlin and Flutter, with hands-on experience in UI development, API integration, Firebase, databases, debugging, app signing, and application deployment.',
+    description: 'Developing Android mobile applications using Jetpack compose and kotlin, with hands-on experience in UI development, API integration, Firebase, databases, debugging, app signing, and application deployment.',
   },
   {
     id: '02',
@@ -30,7 +30,7 @@ const journey: RouteStop[] = [
     year: '2025 - PRESENT',
     title: 'ANDROID DEVELOPMENT',
     organization: 'KOTLIN / ANDROID STUDIO',
-    description: 'Built Android applications using Kotlin, XML, MVVM, Firebase, Room Database, Retrofit, RecyclerView, REST APIs, and other modern Android development tools and practices.',
+    description: 'Built Android applications using Kotlin, XML,Jetpack Compose, MVVM, Firebase, Room Database, Retrofit,  REST APIs, and other modern Android development tools and practices.',
   },
   {
     id: '04',
@@ -39,13 +39,13 @@ const journey: RouteStop[] = [
     organization: 'UNDERGRADUATE STUDENT',
     description: 'Pursuing a Bachelor of Science in Software Engineering while building practical knowledge in software development, databases, data structures, algorithms, system design, and application engineering.',
   },
-  {
-    id: '05',
-    year: '2026 - PRESENT',
-    title: 'FLUTTER DEVELOPMENT',
-    organization: 'FLUTTER / DART',
-    description: 'Expanding mobile development skills with Flutter and Dart to create cross-platform applications for Android and iOS, focusing on responsive UI, reusable components, API integration, and Firebase services.',
-  },
+  // {
+  //   id: '05',
+  //   year: '2026 - PRESENT',
+  //   title: 'FLUTTER DEVELOPMENT',
+  //   organization: 'FLUTTER / DART',
+  //   description: 'Expanding mobile development skills with Flutter and Dart to create cross-platform applications for Android and iOS, focusing on responsive UI, reusable components, API integration, and Firebase services.',
+  // },
 ];
 
 export const ExperienceSection: React.FC = () => {

@@ -6,21 +6,21 @@ const bentoCategories = [
   {
     title: 'ANDROID DEVELOPMENT',
     badge: 'CORE SKILL',
-    items: ['Kotlin', 'Android SDK', 'XML', 'MVVM', 'Retrofit', 'Coroutines'],
+    items: ['Kotlin', 'Android SDK', 'XML', 'Jetpack Compose', 'MVVM', 'Retrofit', 'Coroutines'],
     description:
       'Building Android applications with Kotlin and Android Studio, with hands-on experience in UI implementation, API integration, Firebase, local databases, debugging, and performance optimization.',
     stat: 'KOTLIN / ANDROID',
     colSpan: 'lg:col-span-7',
   },
-  {
-    title: 'FLUTTER DEVELOPMENT',
-    badge: 'CROSS-PLATFORM',
-    items: ['Flutter', 'Dart', 'Widgets', 'Material UI', 'REST APIs', 'Firebase'],
-    description:
-      'Developing cross-platform mobile applications using Flutter and Dart, with a focus on responsive interfaces, reusable UI components, API integration, and modern mobile experiences.',
-    stat: 'CROSS-PLATFORM',
-    colSpan: 'lg:col-span-5',
-  },
+  // {
+  //   title: 'FLUTTER DEVELOPMENT',
+  //   badge: 'CROSS-PLATFORM',
+  //   items: ['Flutter', 'Dart', 'Widgets', 'Material UI', 'REST APIs', 'Firebase'],
+  //   description:
+  //     'Developing cross-platform mobile applications using Flutter and Dart, with a focus on responsive interfaces, reusable UI components, API integration, and modern mobile experiences.',
+  //   stat: 'CROSS-PLATFORM',
+  //   colSpan: 'lg:col-span-5',
+  // },
   {
     title: 'FIREBASE & APIs',
     badge: 'APP SERVICES',
