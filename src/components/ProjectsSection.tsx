@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import ScrollStack, { ScrollStackItem } from './ScrollStack';
 
 interface Project {
   number: string;
@@ -186,17 +185,9 @@ export const ProjectsSection: React.FC = () => {
           </p>
         </motion.div>
 
-        <ScrollStack
-          itemDistance={20}
-          itemScale={0.035}
-          itemStackDistance={28}
-          stackPosition="15%"
-          scaleEndPosition="6%"
-          baseScale={0.88}
-          useWindowScroll={true}
-        >
+        <div className="flex flex-col gap-8">
           {projects.map((project) => (
-            <ScrollStackItem key={project.title}>
+            <div key={project.title}>
               <div className="relative w-full rounded-2xl border border-[#8C6D4F]/50 bg-[#0E0C0A] p-8 sm:p-12 shadow-[0_25px_70px_rgba(0,0,0,0.98)] group overflow-hidden transition-colors duration-500 hover:border-[#D4AF37]">
 
                 <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#D4AF37]/80 to-transparent" />
@@ -289,9 +280,9 @@ export const ProjectsSection: React.FC = () => {
 
                 </div>
               </div>
-            </ScrollStackItem>
+            </div>
           ))}
-        </ScrollStack>
+        </div>
       </div>
     </section>
   );
